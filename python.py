@@ -7,7 +7,9 @@ class Dog:
 
 dog1 = Dog("Buddy", 3)  # Create an instance of Dog
 dog2 = Dog("Charlie", 5)
-dog3 =Dog("char",4)# Create another instance of Dog
+dog3 =Dog("char",4)
+dog4 =Dog("char",4)
+# Create another instance of Dog
 
 print(dog1.name, dog1.age, dog1.species)  # Access instance and class attributes
 print(dog2.name, dog2.age, dog2.species)  # Access instance and class attributes
