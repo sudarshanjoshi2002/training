@@ -11,7 +11,7 @@ def process_data(data):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-    # Potential security vulnerability if data is user input
+    # Potential security vulnerability if data  user input
     user_input = input("Enter some text: ")
     # No input validation, potential for XSS or other attacks
     display_data(user_input) # Function definition missing
