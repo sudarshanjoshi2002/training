@@ -3,7 +3,7 @@ def process_data(data):
     Processes data, but has several potential issues.
     """
 
-    # Unnecessary try-except block
+    # Unnecessary try-except 
     try:
         result = calculate_average(data)
     except ZeroDivisionError:
